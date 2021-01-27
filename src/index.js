@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './component/home/home';
+import Header from './component/header/header';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Header />
   </React.StrictMode>,
   document.getElementById('root')
 );

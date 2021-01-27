@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+/* This changes all the animations globally */
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
 main {
     height: 100%;
     min-height: 500px;
@@ -23,6 +28,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    direction: rtl;
 } 
 
 .read-more {
