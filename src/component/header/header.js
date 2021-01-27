@@ -46,20 +46,20 @@ class Header extends React.Component {
                 <Link to="/" className='nav-link' onClick={this.handleClick} >الرئيسية</Link>
               </li>
               <li class="nav-item">
-                <Link to="/blog" className='nav-link' onClick={this.handleClick} >أهم الأحداث</Link>
+                <Link to="/timeline-2" className='nav-link' onClick={this.handleClick} >أهم الأحداث</Link>
               </li>
               <li class="nav-item">
-                <Link to="/open" className='nav-link' onClick={this.handleClick} > أسماء رحلت  </Link>
+                <Link to="/timeline-1" className='nav-link' onClick={this.handleClick} > أسماء رحلت  </Link>
               </li>
             </ul>
           </div>
         </nav>
         <div className='content_wrapper'>
           <Switch>
-            <Route path="/open">
+            <Route path="/timeline-1">
               <Open />
             </Route>
-            <Route path="/blog">
+            <Route path="/timeline-2">
               <Blog />
             </Route>
             <Route path="/">
