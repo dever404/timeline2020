@@ -1,0 +1,24 @@
+{
+    "name": "Timeline",
+    "short_name": "Timeline 2020",
+    "dir": "rtl",
+    "lang": "ar",
+    "orientation": "landscape",
+    "start_url": "/",
+    "background_color": "#fff",
+    "theme_color": "#3367D6",
+    "display": "standalone",
+    "description": "شريط كرونولوجي لأهم الأحداث الوطنية لسنة 2020" ,
+    "icons": [
+      {
+        "src": "/favicon/android-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/favicon/ms-icon-310x310.png",
+        "type": "image/png",
+        "sizes": "310x310"
+      }
+    ]
+  }

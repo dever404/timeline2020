@@ -3,9 +3,6 @@ import gsap from "gsap";
 import './home.scss';
 
 export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   componentDidMount() {
     document.body.addEventListener("mousemove",function(evt) {
@@ -28,13 +25,13 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className='home_body'>
-        <span class='cursor'></span>
-        <div class='shapes'>
-          <span class="shape shape-1"></span>
-          <span class="shape shape-2"></span>
-          <span class="shape shape-3"></span>
+        <span className='cursor'></span>
+        <div className='shapes'>
+          <span className="shape shape-1"></span>
+          <span className="shape shape-2"></span>
+          <span className="shape shape-3"></span>
         </div>
-        <div class='content'>
+        <div className='content'>
           <div>
             <h1>Happy New Year 2021 </h1>
             <h3 className='text-center mt-4'>شريط كرونولوجي لأهم الأحداث الوطنية لسنة 2020</h3>

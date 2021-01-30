@@ -1,0 +1,8 @@
+{
+    "port": "3003",
+    "host": "localhost",
+    "appRootUrl": "/",
+    "serviceWorker": false,
+    "serverSideRender": true,
+    "singlePageApplication": false
+  }

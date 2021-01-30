@@ -36,19 +36,19 @@ class Header extends React.Component {
     return (
       <Router>
       <main>
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <button class="navbar-toggler" onClick={this.handleClick}>
-            <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg navbar-light">
+          <button className="navbar-toggler" onClick={this.handleClick}>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class={ this.state.isToggleOn ? 'collapse navbar-collapse justify-content-lg-center' : 'collapse navbar-collapse justify-content-lg-center show'} id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
+          <div className={ this.state.isToggleOn ? 'collapse navbar-collapse justify-content-lg-center' : 'collapse navbar-collapse justify-content-lg-center show'} id="navbarSupportedContent">
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <Link to="/" className='nav-link' onClick={this.handleClick} >الرئيسية</Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link to="/timeline-2" className='nav-link' onClick={this.handleClick} >أهم الأحداث</Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link to="/timeline-1" className='nav-link' onClick={this.handleClick} > أسماء رحلت  </Link>
               </li>
             </ul>
