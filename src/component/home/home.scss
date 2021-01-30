@@ -15,7 +15,7 @@
     mix-blend-mode: screen;
     background-image: url(../../img/bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;//100%;
     
     h1 {
       font-size: 75px;
@@ -31,7 +31,7 @@
 }
   
 .shapes {
-position: relative;
+position: fixed;
 height: 100vh;
 width: 100vw;
 background: #2128bd;

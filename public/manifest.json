@@ -11,14 +11,16 @@
     "description": "شريط كرونولوجي لأهم الأحداث الوطنية لسنة 2020" ,
     "icons": [
       {
-        "src": "/favicon/android-icon-192x192.png",
+        "src": "/favicon/192x192.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "purpose": "any maskable"
       },
       {
-        "src": "/favicon/ms-icon-310x310.png",
+        "src": "/favicon/512x512.png",
         "type": "image/png",
-        "sizes": "310x310"
+        "sizes": "512x512",
+        "purpose": "any maskable"
       }
     ]
   }
